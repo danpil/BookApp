@@ -1,3 +1,16 @@
+1. npm install -g json-server
+2. npm install
+3.In the first terminal: yarn jsonserver
+4.In another terminal: yarn start
+
+
+
+
+
+
+
+
+#############################################################################################################
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
