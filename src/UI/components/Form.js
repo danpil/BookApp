@@ -15,12 +15,6 @@ const validate = values => {
   return errors;
 };
 
-// const style = {
-//   div: {
-//     border: '8px',
-//   },
-// };
-
 class Form extends Component {
   state = {
     isOpenDialog: false,
