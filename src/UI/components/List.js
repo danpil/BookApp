@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import { List, ListItem } from 'material-ui/List';
 
 class ListBook extends Component {
@@ -6,7 +7,11 @@ class ListBook extends Component {
     return (
       <List>
         {this.props.books.map(book => {
-          return <ListItem primaryText={book.titleFormat} key={book.id} />;
+          return (
+            <Link to={`/book/${book.id}`} key={book.id}>
+              <ListItem primaryText={book.titleFormat} />
+            </Link>
+          );
         })}
       </List>
     );
